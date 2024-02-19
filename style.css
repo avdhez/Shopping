@@ -94,7 +94,7 @@ a {
 .image-gallery {
       width: 220px;
       height: 340px;
-      overflow: hidden;
+      overflow: scroll;
       white-space: nowrap;
     }
 
