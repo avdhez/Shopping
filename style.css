@@ -92,22 +92,6 @@ a {
   color: black;
 }
 
-.image-gallery {
-margin-left: 50%;
-      display: block;
-      width: 220px;
-      height: 340px;
-      overflow: scroll;
-      white-space: nowrap;
-      border: 4px solid white;
-      border-radius: 10px;
-    }
-
-    .image-gallery img {
-      width: 100%;
-      height: 100%;
-      display: inline-block;
-    }
 
 album img {
  margin-bottom: 25px;
