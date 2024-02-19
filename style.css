@@ -92,6 +92,7 @@ a {
 }
 
 .image-gallery {
+left: 50%;
       display: block;
       width: 220px;
       height: 340px;
