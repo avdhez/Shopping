@@ -9,6 +9,7 @@ body {
 border: 0px solid white;
   text-align: center;
 }
+
 nav {
   position: ;
 	padding-bottom: 5px;
@@ -92,7 +93,7 @@ a {
 }
 
 .image-gallery {
-left: 50%;
+margin-left: 50%;
       display: block;
       width: 220px;
       height: 340px;
