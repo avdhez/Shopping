@@ -91,3 +91,15 @@ a {
   color: black;
 }
 
+.image-gallery {
+      width: 220px;
+      height: 340px;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+      display: inline-block;
+    }
