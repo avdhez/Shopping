@@ -25,6 +25,11 @@ border: 0px solid white;
     border-radius: 10px;
     padding: 8px;
     margin-bottom: 20px;
+   transition: width 0.3s;
+}
+
+#searchBar:focus {
+    width: 280px;
 }
 
 nav {
@@ -55,6 +60,11 @@ align-content: center;
   justify-content: center;
   text-align: center;
   text-transform: uppercase;
+transition: 0.5s;
+}
+
+product:hover {
+    transform: scale(1.06);
 }
 
 product img {
