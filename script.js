@@ -9,3 +9,23 @@ function product1() {
             window.open(whatsappLink, '_blank');
         }
     }
+
+
+function filterProducts() {
+    var input, filter, products, product, name, i, txtValue;
+    input = document.getElementById('searchBar');
+    filter = input.value.toUpperCase();
+    products = document.getElementsByTagName('product');
+
+    for (i = 0; i < products.length; i++) {
+        product = products[i];
+        name = product.querySelector('pro-name');
+        txtValue = name.textContent || name.innerText;
+
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            product.style.display = '';
+        } else {
+            product.style.display = 'none';
+        }
+    }
+}
