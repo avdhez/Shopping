@@ -7,15 +7,15 @@ body {
   text-decoration: bold;
   align-content: center;
   justify-content: center;
-border: 0px solid white;
+  border: 0px solid white;
   text-align: center;
 }
 
 #searchBar {
-  font-family: monospace;
-  align-content: center;
-  margin: auto;
-  display: block;
+    font-family: monospace;
+    align-content: center;
+    margin: auto;
+    display: block;
     width: 280px;
     height: 20px;
     background: black;
@@ -25,26 +25,23 @@ border: 0px solid white;
     border-radius: 10px;
     padding: 8px;
     margin-bottom: 20px;
-   transition: width 0.3s;
+    transition: width 0.3s;
 }
 
-#searchBar:focus {
-    width: 280px;
-}
 
 nav {
   position: ;
-	padding-bottom: 5px;
-	display: block;
-	width: 90%;
-	margin: 5%;
+	 padding-bottom: 5px;
+  display: block;
+	 width: 90%;
+	 margin: 5%;
   height: 15%;
   font-size: 34px;
-	background-color: black;
-	text-decoration: bold;
-	border-bottom: 4px solid white;
-	border-radius: 40px;
-text-transform: uppercase;
+	 background-color: black;
+	 text-decoration: bold;
+	 border-bottom: 4px solid white;
+	 border-radius: 40px;
+  text-transform: uppercase;
 }
 
 product {
@@ -63,9 +60,6 @@ align-content: center;
 transition: 0.5s;
 }
 
-product:hover {
-    transform: scale(1.06);
-}
 
 product img {
   margin: 10px;
